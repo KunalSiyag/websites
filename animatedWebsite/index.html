@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animated Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
     <link rel='stylesheet' href="./style.css">
     <link
     href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
@@ -12,13 +13,14 @@
 </head>
 <body>
     <div id="main">
-        <div id="home">
             <div id="nav">
                 <div id="nleft">
-                    <a href="#">Home</a><a href="#">Pricing</a><a href="#">Products</a>
+                    <a class="nlink" href="#">Home</a>
+                    <a class="nlink" href="#">Pricing</a>
+                    <a class="nlink" href="#">Products</a>
                 </div>
-                <a id="centeratag" href="#">Shreyians</a>
-                <div id="nright"><a href="#">Our Journey</a></div>
+                <a class="nlink" id="centeratag" href="#">Shreyians</a>
+                <div class="nlink" id="nright"><a href="#">Our Journey</a></div>
             </div>
             <div id="hero">
                 <div id="sustain">
@@ -34,8 +36,10 @@
                         <h1>Ephemeral</h1>
                         <h1>Equilibrium.</h1>
                     </div>
-                    <img src="./assets/pinkplant.jpg">
+                    <div id="imgntext">
+                        <img src="./assets/pinkplant.jpg">
                      <p>Committed to Sustainability and Eco-Friendly choices for a better tommorrow.</p>
+                    </div>
                 </div>
                 <div id="visit">
                     <div id="circlev">
@@ -45,11 +49,54 @@
                 </div>
 
             </div>
-            
+            <div id="motive">
+               <h3>Our Motive</h3> 
+               <p>At Shreyians, we are deeply committed to sustainability. We believe in 
+                a greener, more sustainable future,<span id="onespan"></span>and it's at the
+                core of everything we do. Our practices are designed with 
+                environmental <span id="twospan"></span>responsibility in mind, from sourcing eco-friendly <span id="threespan"></span>
+                materials to reducing our carbon footprint.
+                              
+            </div>
+            <div id="pictures">
+             <div id="firstimg">
+                <div id="picimg">
+                    <img src="./assets/sea.jpg">
+                </div>
+                <h1>Synergy.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, tempora!</p>
+             </div>
+             <div id="secimg">
+                <div id="picimg">
+                    <img src="./assets/cloud.jpg">
+                </div>
+                <h1>Harmony.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, tempora!</p>
+             </div>
+
+            </div>
+            <div id="banner">
+                <div id="bimg">
+                    <img src="./assets/bottle.jpg">
+                </div>
+                <div id="btxt">
+                    <h1>Biodegradable</h1>
+                    <h1>Packaging</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div id="future">
+                <video src="./assets/back.mp4" autoplay muted loop></video>
+                <div id="ftext">
+                    <h1>think of future</h1>
+                    <button>join the movement</button>
+                </div>
         </div>
       
     </div>
-    
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="script.js"></script>
+
 </body>
 </html>
