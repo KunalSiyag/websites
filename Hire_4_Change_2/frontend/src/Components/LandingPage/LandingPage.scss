@@ -1,0 +1,65 @@
+@import url('../../assets/assets.css');
+h1 {
+    font-size: 75px;
+    font-weight: bolder;
+    line-height: 1rem;
+}
+h2 {
+    font-size: 45px;
+    font-weight: 500;
+}
+.stats {
+    // background-color: #666;
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content:space-between;
+    align-items: center;
+    .stat {
+        // background-color: aqua;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        h2 {
+            font-size: 50px;
+            font-weight: 500;
+        }
+        p {
+            color: #666;
+        }
+    }
+    .line {
+        border-left: 2px solid #666; /* Set the thickness and color of the line */
+        height: 60px;               /* Set the height of the vertical line */
+        margin: 0 10px;
+        opacity: .5;              /* Optional: Add margin to control spacing */
+      }
+      
+}
+.testimonies {
+    margin-right: -60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    h1 {
+        font-family: 'Reenie Beanie';
+        font-size: 30px;
+        font-weight: 300;
+    }
+    .testimony {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 30px;
+        height: 300px;
+        width: 250px;
+        border-radius: 20px;
+        background-color: bisque;
+        box-shadow:5px 5px 10px #bd7d5365;
+        span {
+            line-height: 0px;
+        }
+        
+    };
+}

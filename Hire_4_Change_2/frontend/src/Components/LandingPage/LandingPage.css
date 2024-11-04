@@ -1,0 +1,64 @@
+@import url("../../assets/assets.css");
+h1 {
+  font-size: 75px;
+  font-weight: bolder;
+  line-height: 1rem;
+}
+
+h2 {
+  font-size: 45px;
+  font-weight: 500;
+}
+
+.stats {
+  margin-top: 10px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.stats .stat {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.stats .stat h2 {
+  font-size: 50px;
+  font-weight: 500;
+}
+.stats .stat p {
+  color: #666;
+}
+.stats .line {
+  border-left: 2px solid #666; /* Set the thickness and color of the line */
+  height: 60px; /* Set the height of the vertical line */
+  margin: 0 10px;
+  opacity: 0.5; /* Optional: Add margin to control spacing */
+}
+
+.testimonies {
+  margin-right: -60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.testimonies h1 {
+  font-family: "Reenie Beanie";
+  font-size: 30px;
+  font-weight: 300;
+}
+.testimonies .testimony {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px;
+  height: 300px;
+  width: 250px;
+  border-radius: 20px;
+  background-color: bisque;
+  box-shadow: 5px 5px 10px rgba(189, 125, 83, 0.3960784314);
+}
+.testimonies .testimony span {
+  line-height: 0px;
+}/*# sourceMappingURL=LandingPage.css.map */

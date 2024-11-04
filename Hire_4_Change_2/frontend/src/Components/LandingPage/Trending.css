@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Reenie+Beanie&display=swap");
+html {
+  font-size: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+h1 {
+  font-family: "Josefin Sans";
+  font-size: 3rem;
+  color: #FF9900;
+}
+
+a {
+  color: black; /* Default color for the link */
+  text-decoration: none; /* Remove underline from the link */
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #FF9900; /* Color change on hover */
+}
+
+h2 {
+  font-family: "Poppins";
+  text-transform: capitalize;
+  font-weight: 300;
+}
+
+.section-1 {
+  display: flex;
+  justify-content: center;
+  width: 1;
+  padding: 1em;
+}
+
+.section-2 {
+  width: 30%;
+  padding: 3rem;
+  padding-top: 0;
+}/*# sourceMappingURL=Trending.css.map */

@@ -1,0 +1,32 @@
+.freelancer-container {
+  height: 600px;
+  width: 200px;
+  background-color: antiquewhite;
+  border-radius: 100px;
+  background-size: cover;
+  background-position: center;
+}
+
+#freelancer-1 {
+  background-image: url("../../assets/Group1.jpg");
+}
+
+#freelancer-2 {
+  background-image: url("../../assets/Group5.jpg");
+}
+
+#freelancer-3 {
+  background-image: url("../../assets/Group2.jpg");
+}
+
+#freelancer-4 {
+  background-image: url("../../assets/Group4.jpg");
+}
+
+#freelancer-5 {
+  background-image: url("../../assets/Group3.jpg");
+}
+
+#freelancer-6 {
+  background-image: url("../../assets/Group1.jpg");
+}/*# sourceMappingURL=Hero.css.map */

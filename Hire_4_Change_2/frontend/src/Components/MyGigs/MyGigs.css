@@ -1,0 +1,29 @@
+.my-gigs {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+
+  h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  .loading, .error, .no-gigs {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 40px;
+    color: #666;
+  }
+
+  .error {
+    color: #e74c3c;
+  }
+
+  .gigs-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+}

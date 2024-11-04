@@ -1,0 +1,185 @@
+.job-listing-form {
+    font-family: 'Poppins', sans-serif;
+    background: rgba(255, 248, 220, 0.9); /* Very light cremish background with high alpha */
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    color: #444444;
+}
+
+.job-listing-form h1,
+.job-listing-form h2 {
+    color: #444444;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+.job-listing-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.job-listing-form .form-sections {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.job-listing-form .form-sections button {
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #cccccc; /* Light grey border */
+    padding: 10px 15px;
+    color: #444444;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.job-listing-form .form-sections button:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.job-listing-form .form-section {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #cccccc; /* Light grey border */
+}
+
+.job-listing-form label {
+    color: #444444;
+    font-weight: 300;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.job-listing-form input,
+.job-listing-form select,
+.job-listing-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc; /* Light grey border */
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #444444;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.job-listing-form input::placeholder,
+.job-listing-form select::placeholder,
+.job-listing-form textarea::placeholder {
+    color: rgba(68, 68, 68, 0.7); /* Slightly darker placeholder color */
+}
+
+.job-listing-form select {
+    background-color: rgba(255, 248, 220, 0.7); /* Slightly cremish background for select */
+}
+
+.job-listing-form select option {
+    background-color: rgba(255, 248, 220, 0.9); /* Cremish background for options */
+    color: #444444;
+}
+
+.job-listing-form button[type="submit"] {
+    background: linear-gradient(45deg, #ff6b6b, #feca57);
+    border: none;
+    padding: 12px 20px;
+    color: #444444;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.job-listing-form button[type="submit"]:hover {
+    transform: translateY(-3px);
+}
+
+.job-listing-form .success,
+.job-listing-form .error {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.job-listing-form .success {
+    background-color: rgba(39, 174, 96, 0.2);
+    color: #2ecc71;
+}
+
+.job-listing-form .error {
+    background-color: rgba(231, 76, 60, 0.2);
+    color: #e74c3c;
+}
+
+.job-listing-form .image-upload {
+    margin-top: 20px;
+}
+
+.job-listing-form #imageContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.job-listing-form .image-preview {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid #cccccc; /* Light grey border */
+}
+
+.job-listing-form .image-preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.job-listing-form .image-preview button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: rgba(255, 0, 0, 0.7);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .job-listing-form {
+        padding: 20px;
+    }
+
+    .job-listing-form .form-sections {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .job-listing-form .form-sections button {
+        flex: 1 0 calc(33.333% - 10px);
+    }
+}
